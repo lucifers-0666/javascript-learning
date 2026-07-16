@@ -1,0 +1,28 @@
+/* Change color in same id */
+#heading {
+    color: red;
+    font-size: 50px;
+}
+
+/* Change color in same class */
+.paragraph {
+    color: blue;
+    font-size: 20px;
+}
+
+/* Change color for the button
+ */
+.btn {
+    color: red;
+    background-color: blue;
+}   
+
+/* changes color of all classes */
+.heading {
+    color: green;
+    font-size: 30px;
+}
+.paragraph {
+    color: yellow;
+    font-size: 20px;
+}   
