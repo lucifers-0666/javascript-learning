@@ -1,27 +1,18 @@
 # 📚 JavaScript Learning Journey
 
-My personal JavaScript learning repo — every concept, topic, and code example as I progress from basics to advanced.
+My personal JavaScript learning repo — every concept, topic, and code example as I progress.
 
 ## 📁 Folder Structure
 
 | Folder | Topic | Status |
 |--------|-------|--------|
-| `01-basics/` | Variables, data types, operators | 🔜 Coming |
-| `02-functions/` | Functions, HOFs, closures | 🔜 Coming |
-| `03-arrays-objects/` | Array methods, destructuring | 🔜 Coming |
-| `04-async-js/` | Callbacks, Promises, async/await | 🔜 Coming |
-| `05-dom/` | DOM manipulation, events, forms | ✅ Done |
-| `06-es6-plus/` | Arrow functions, modules, template literals | 🔜 Coming |
-| `07-oop/` | Prototypes, classes, inheritance | 🔜 Coming |
-| `08-advanced/` | Currying, memoization, design patterns | 🔜 Coming |
+| `01-basics/` | Print, Variables, Datatypes, Conversion, TDZ, Hoisting, Operations | ✅ Done |
+| `02-control-flow/` | if/else, switch/case, Loops | ✅ Done |
+| `03-strings/` | Strings, String Methods | ✅ Done |
+| `04-arrays/` | Arrays, forEach | ✅ Done |
+| `05-functions/` | Functions, Higher Order Functions | ✅ Done |
+| `06-objects/` | Objects | 🔄 In Progress |
+| `07-dom/` | DOM — your own files go here | 🔄 In Progress |
 
-## 🚀 How to Use
-
-Each folder has:
-- Numbered `.js` files (one per sub-topic)
-- A `README.md` explaining what's covered
-- An `index.html` (where needed) to run in browser
-
-## 🧑‍💻 Author
-
+## 👨‍💻 Author
 weeknd — learning JavaScript, one topic at a time.
