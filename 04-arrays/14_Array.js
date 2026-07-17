@@ -35,7 +35,24 @@ let slicedFruits = fruits.slice(0, 2);
 console.log(slicedFruits); // Output: ["kiwi", "mango"]
 console.log(fruits); // Output: ["kiwi", "mango", "orange"]
 
-// Sort : sort take alwaye take one function 
+// Sort : Sort is a method that is used to sort the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
+let numbers = [3, 1, 4, 2, 5];
+numbers.sort();
+console.log(numbers); // Output: [1, 2, 3, 4, 5]
+
+// reverse() method : reverses the order of the elements in an array.
+numbers.reverse();
+console.log(numbers); // Output: [5, 4, 3, 2, 1]
+
+// join() method : joins all elements of an array into a string.
+let fruitsString = fruits.join(", ");
+console.log(fruitsString); // Output: "kiwi, mango, orange"
+
+// concat() method : creates a new array by concatenating two or more arrays.
+let moreFruits = ["pear", "peach"];
+let allFruits = fruits.concat(moreFruits);
+console.log(allFruits); // Output: ["kiwi", "mango", "orange", "pear", "peach"]
+
 
 
 // indexOf() method : returns the index of the first occurrence of a specified value in an array. If the value is not found, it returns -1.
