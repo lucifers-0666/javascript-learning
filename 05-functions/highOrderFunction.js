@@ -20,8 +20,35 @@ let evenNumbers = numbers.filter(function(number) {
 });
 console.log(evenNumbers); // Output: [2, 4]
 
-// reduce method : executes a reducer function on each element of the array, resulting in a single output value.
+// reduce method : executes a reducer function on each element of the array, 
+// resulting in a single output value.
 let sum = numbers.reduce(function(accumulator, currentValue) {
     return accumulator + currentValue;
 }, 0);
 console.log(sum); // Output: 15
+
+// find method : returns the value of the first element in the array that satisfies 
+// the provided testing function. If no values satisfy the testing function, undefined is returned.
+let firstEvenNumber = numbers.find(function(number) {
+    return number % 2 === 0;
+});
+console.log(firstEvenNumber); // Output: 2
+
+// some method : tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.
+let hasEvenNumber = numbers.some(function(number) {
+    return number % 2 === 0;
+});
+console.log(hasEvenNumber); // Output: true
+
+// every method : tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+let allEvenNumbers = numbers.every(function(number) {
+    return number % 2 === 0;
+});
+console.log(allEvenNumbers); // Output: false           
+
+// spared method : The spread operator allows an iterable such as an array or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected.
+const arr1 = [1, 2, 3,4,5,6];
+const arr2 = [...arr1];
+console.log(arr2); // Output: [1, 2, 3, 4, 5, 6]
+
+

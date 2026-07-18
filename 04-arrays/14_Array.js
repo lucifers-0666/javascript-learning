@@ -53,7 +53,7 @@ let moreFruits = ["pear", "peach"];
 let allFruits = fruits.concat(moreFruits);
 console.log(allFruits); // Output: ["kiwi", "mango", "orange", "pear", "peach"]
 
-
+// filter method : 
 
 // indexOf() method : returns the index of the first occurrence of a specified value in an array. If the value is not found, it returns -1.
 console.log(fruits.indexOf("mango")); // Output: 1
