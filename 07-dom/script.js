@@ -22,3 +22,19 @@ let paragraph = document.getElementsByClassName("paragraph");
 console.log(paragraph);
 paragraph[0].style.color = "blue";
 paragraph[0].style.fontSize = "20px";
+
+// access element by select query selector
+let button = document.querySelector(".btn");
+console.log(button);
+button.style.backgroundColor = "green";
+button.style.color = "white";
+button.style.fontSize = "20px";
+
+// access element by select query selector (select all)
+let buttons = document.querySelectorAll(".btn");
+console.log(buttons);
+buttons.forEach((btn) => {
+    btn.style.backgroundColor = "green";
+    btn.style.color = "white";
+    btn.style.fontSize = "20px";
+});
